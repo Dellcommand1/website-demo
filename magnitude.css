@@ -1,0 +1,85 @@
+body{
+    min-height: 200vh;
+    display: flex;
+    flex-direction: column;
+}
+
+img {
+  display: block;
+  width: 50%;
+  height: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+body {
+    animation: changebg 10s linear infinite;
+    color: rgb(243, 242, 240);
+    font-weight:bold;
+    text-align: center;
+
+}
+@keyframes changebg{
+  0% {
+    background-color: black
+  
+  }
+  50% {background-color: darkgray;
+  
+  
+  }
+  100%{
+    background-color: black;
+  }
+}
+ 
+h1 {
+    color:blue;
+    font-family: 'Brush Script MT', cursive;
+    font-size: 400%;
+    margin-left:auto'
+    margin-right:auto;  
+
+
+}
+h3 { font-family: verdana;
+font-size:large
+}
+
+   
+.all-browsers {
+    margin: 0;
+    padding: 5px;
+    background-color: lightgray;
+  }
+  
+  .all-browsers > h1, .browser {
+    margin: 10px;
+    padding: 5px;
+  }
+  
+  .browser {
+    background: white;
+  }
+  
+  .browser > h2, p {
+    margin: 4px;
+    font-size: 90%;
+  }
+
+  aside {
+    width: 30%;
+    padding-left: 15px;
+    margin-left: 15px;
+    float: right;
+    font-style: italic;
+    background-color: lightgray;}
+
+    footer {
+        font-family: verdana;
+    font-size: 70%;
+    }
+    
+   
+   
+< div id = "footer" >
