@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+      <centre>
+       <link rel= "stylesheet" href="magnitude.css">
+
+       
+       <style>
+        .parallax {
+          /* The image used */
+          background-image: url("download.jpg");
+        
+          /* Set a specific height */
+          min-height: 400px;
+        
+          /* Create the parallax scrolling effect */
+          background-attachment: fixed;
+          background-position: center;
+          background-repeat: no-repeat;
+          background-size: cover;
+        }
+        </style>
+        
+        <!-- Container element -->
+        <div class="parallax"></div>
+        
+            <nav> 
+                <a href="/html/">products</a> |
+              <a href="/css/">latest release</a> |
+              <a href="/js/">about u</a> |
+              <a href="/jquery/">contact us</a>
+            
+            </nav>
+       
+        <img src="magnitude.png" alt="magnitude logo"width="145" height="50"><br>
+        </centre>
+      </head>
+
+    <body>
+        <a class="'non-active white-text" href="'/#"style="font-size: 18px;">
+            documentation
+            <span class="lines white-text">
+
+            </span>
+        </a>
+        
+
+<section>
+<centre>
+  <h1>About us</h1>
+  <p>An company started from nothing</p>
+  <centre><img src="download.jpg" width="500" height="600"></centre>
+  
+  
+  <h2>enter email adress to keep up to date</h2>
+  <form action="/action_page.php">
+    <label for="emails">Enter email addresses:</label>
+    <input type="email" id="emails" name="emails" multiple>
+    <input type="submit">
+  </form>
+  </centre>
+    
+<section>
+  
+
+</section>
+    <form action=""> 
+  
+        <select name="customers" onchange="showCustomer(this.value)">
+          <option value="">Select a plan:</option>
+          <option value="ALFKI">1 year prenium </option>
+          <option value="NORTS ">lifetime</option>
+          <option value="WOLZA">1 week</option>
+        </select>
+      </form>
+      
+    
+    
+    
+      <button type ="button"
+onclick="document.getElemetntById('demo').innerHTML = Date()"> Press here to explore more designs
+</button>
+
+<p id="demo"></p>
+</section>
+
+
+  <p> proud owner of the company is soo being introduce and new products will be released soon</p>
+
+
+
+<div id="googleMap" style="width:100%;height:400px;"></div>
+
+<script>
+function myMap() {
+var mapProp= {
+  center:new google.maps.LatLng(51.508742,-0.120850),
+  zoom:5,
+};
+var map = new google.maps.Map(document.getElementById("googleMap"),mapProp);
+}
+</script>
+
+<script src="https://maps.googleapis.com/maps/api/js?key=YOUR_KEY&callback=myMap"></script>
+
+</body>
+
+ <centre>
+  <h3>HTML Forms</h3>
+
+<form action="/action_page.php">
+  <label for="fname">First name:</label><br>
+  <input type="text" id="fname" name="fname" value="John"><br>
+  <label for="lname">Last name:</label><br>
+  <input type="text" id="lname" name="lname" value="Doe"><br><br>
+  <input type="submit" value="Submit">
+</form> 
+  <footer>
+    &copy; <em id="date"></em>copyright 2020 - magnitude
+
+  </footer>
+
+
+</center>
+</html> 
